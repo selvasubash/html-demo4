@@ -1,0 +1,113 @@
+.container{
+    background-color: blue;
+    color:white;
+    padding:25px;
+}
+.container {
+    max-width: 1000px;
+    margin-left: 150px;
+}
+.d-flex {
+    display:flex;
+}
+nav li{
+    display:inline-block;
+}
+nav{
+    text-align: right;
+}
+nav ul{
+    padding:10px;
+    list-style: none;
+}
+nav a{
+    position: relative;
+    text-decoration: none;
+    padding:5px;
+    font-size: 20px;
+    color:white;
+}
+nav a:hover {
+    background-color:white;
+    color:black; 
+}
+.col-6 {
+    float:left;
+    width:50%;
+}
+.col-6 {
+    float:right;
+    width:50%;
+}
+.container2{
+    max-width:1000px;
+    margin-left:150px;
+    padding-top: 10px;
+}
+.col-1{
+    float:left;
+    width:100%;
+    background-image: url('hd1.jpg.jpg');
+    height: 500px;
+    text-align: center;
+    border-radius:50px;
+    border: 2px solid #333;
+    color: white;
+    font-size:25px;
+}
+.col-2{
+    float:right;
+    width:100%;
+    background-image: url('football-wallpapers-high-resolution-On-wallpaper-hd.jpg');
+    height: 500px;
+    text-align: center;
+    border-radius:50px;
+    border: 2px solid #333;
+    color: whitesmoke;
+    font-size:25px;
+    margin: 0 5px;
+}
+.col-3{
+    float:right;
+    width:100%;
+    background-image: url('hd4.jpg.jpg');
+    height: 500px;
+    text-align:center;
+    border-radius:50px;
+    border: 2px solid #333;
+    color:rgb(247, 244, 244);
+    font-size:25px;
+}
+.child{
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.p1{
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.p2{
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.u1, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 155px;
+    background-color: rgb(205, 228, 231);
+    color:rgb(8, 4, 252);
+}
+.u1 {
+    width:75%;
+    height:100%;
+    border-color: blue;
+}
+
+
